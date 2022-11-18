@@ -4,6 +4,11 @@
     text-align: center;
     color: white;
 }
+h2{
+    font-size: 6vw;
+    color: whitesmoke; 
+    margin: 0 5%;
+}
 p{
     font-size: 4vw;
     text-align: center;  
@@ -22,7 +27,7 @@ p{
 .div3 { grid-area: 3 / 1 / 4 / 2; }
 .div4 { grid-area: 4 / 1 / 5 / 2; }
 
-@media (width< 480px){
+@media(width< 480px){
 
     body{
         background-color: red;
@@ -41,7 +46,7 @@ p{
     }
     .parent {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 65% 35%;
         grid-template-rows: 25%;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
